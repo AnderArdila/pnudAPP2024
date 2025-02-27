@@ -8,5 +8,8 @@ build/
 
 .flutter-plugins
 
+.flutter-plugins-dependencies
+
 # FVM Version Cache
 .fvm/
+
