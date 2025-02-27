@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "275086468797",
+    "firebase_url": "https://gestionsugas.firebaseio.com",
+    "project_id": "gestionsugas",
+    "storage_bucket": "gestionsugas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275086468797:android:dd19da16ba1b4066",
+        "android_client_info": {
+          "package_name": "co.gov.minambiente.gestionsugas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275086468797-5of8ila5eli73i0qankv06jaccpi37da.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.gov.minambiente.gestionsugas",
+            "certificate_hash": "7b5e2981d4609ee0a18ad5204479b8024b9804b5"
+          }
+        },
+        {
+          "client_id": "275086468797-i0vcdi2bf22ugtj2j04lbpbs07gc0l5v.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "275086468797-i0vcdi2bf22ugtj2j04lbpbs07gc0l5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOa-jBMbc55-s4_wB9lj7WPJU-7owAnoo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275086468797-i0vcdi2bf22ugtj2j04lbpbs07gc0l5v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "275086468797-ntrhfk256cl289jk2ekl5bvf221fvo3p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gov.minambiente.gestionsugas",
+                "app_store_id": "1401079445"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

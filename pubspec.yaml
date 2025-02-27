@@ -1,0 +1,96 @@
+name: GestioneSuGas
+description: Aplicacion de la red de recuperacion, reciclaje y regeneracion de gases refrigerantes que busca promover la getion integral de los gases refrigerantes residuales del pais.
+
+version: 1.0.1+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  http: ^0.12.1
+  share: ^0.6.4+3
+  url_launcher: ^5.5.0
+  cached_network_image: ^2.2.0+1
+  intl: ^0.16.1
+  rxdart: ^0.24.1
+  font_awesome_flutter:
+  validate: ^1.7.0
+  json_annotation: ^3.0.1
+  shared_preferences: ^0.5.8
+  location: ^3.0.2
+  flutter_map: ^0.10.1
+  image_picker: ^0.6.7+4
+  firebase_messaging: ^6.0.16
+  badges: ^1.1.1
+  groovin_widgets: ^1.6.0
+  modal_bottom_sheet: ^0.2.0
+  flutter_map_tappable_polyline: ^0.3.3
+
+  # Ander
+  #webview_flutter: ^4.0.1
+  webview_flutter: ^0.3.22+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/img/
+    - assets/logo.png
+    - assets/borracho.png  
+    - assets/usr.png
+    - assets/usr_map.png
+    - assets/tec.png
+    - assets/tec_map.png
+    - assets/emp.png
+    - assets/emp_map.png
+    - assets/ca.png
+    - assets/ca_map.png
+    - assets/cad.png
+    - assets/cad_map.png
+    - assets/cr.png
+    - assets/cr_map.png
+    - assets/rior.png
+    - assets/rior_map.png
+    - assets/admin.png
+    - assets/admin_map.png
+    - assets/pao.png
+    - assets/imp.png
+    - assets/co2.png
+    - assets/globe.png
+    - assets/support.png
+    - assets/support_black.png
+    - assets/mercury.png
+  fonts:
+    - family: Montserrat Alternates
+      fonts:
+        - asset: assets/fonts/MontserratAlternates-Regular.ttf
+    - family: Overlock SC
+      fonts:
+        - asset: assets/fonts/OverlockSC-Regular.ttf
+          weight: 400
+    - family: Baloo
+      fonts:  
+        - asset: assets/fonts/Baloo-Regular.ttf
+          weight: 400
